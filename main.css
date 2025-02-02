@@ -37,7 +37,7 @@ div.menu ul li a:hover  {
     color: #4d5791;
 }
 
-div.hero {
+div.hero, .hero{
     height: 350px;
     background-color: #b4c6f0;
     background-image: url('/bg.png');
