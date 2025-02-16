@@ -3,10 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import { Chart, ArcElement, Tooltip, Legend, PieController } from 'chart.js';
 import { isPlatformBrowser } from '@angular/common';
 import { ArticleComponent } from '../article/article.component';
+import { BreadcrumbsComponent } from '../breadcrumbs/breadcrumbs.component';
+import { D3ChartComponent } from '../d3-chart/d3-chart.component';
 
 @Component({
   selector: 'pb-homepage',
-  imports: [ArticleComponent],
+  imports: [ArticleComponent,BreadcrumbsComponent,D3ChartComponent],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss'] 
 })

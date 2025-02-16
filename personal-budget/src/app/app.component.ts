@@ -7,12 +7,12 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
 import { FooterComponent } from './footer/footer.component';
-import { HttpClientModule } from '@angular/common/http';
 import { ArticleComponent } from './article/article.component';
+import { D3ChartComponent } from './d3-chart/d3-chart.component';
 
 @Component({
   selector: 'pb-root',
-  imports: [RouterOutlet,MenuComponent,HeroComponent,HomepageComponent, AboutComponent, LoginComponent,P404Component, FooterComponent, HttpClientModule, ArticleComponent],
+  imports: [RouterOutlet,MenuComponent,HeroComponent,HomepageComponent, AboutComponent, LoginComponent,P404Component, FooterComponent, ArticleComponent,D3ChartComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
